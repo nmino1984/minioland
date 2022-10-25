@@ -4,9 +4,9 @@
 
             <h1>{{ minion.name }} <small> | Nacido en {{ minion.birth }} </small> </h1>
         </div>  
-        <div class="col-1" style="width: 100px;">
+        <div class="col-1">
             <img *ngIf="minion.side === 'de los buenos'" src="../../../assets/img/de los buenos.PNG" alt="" class="img-fluid side">
-            <img *ngIf="minion.side === 'malvado'" src="../../../assets/img/de los malos.PNG" alt="minion.name" class="img-fluid side">
+            <img *ngIf="minion.side === 'malvado'" src="@ima/img/de los malos.PNG" alt="minion.name" class="img-fluid side">
         </div>  
     </div>  
     <hr>
